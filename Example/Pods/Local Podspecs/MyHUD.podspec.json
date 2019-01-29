@@ -1,0 +1,22 @@
+{
+  "name": "MyHUD",
+  "version": "0.1.0",
+  "summary": "A short description of MyHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tzq20070604/MyHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tzq20070604": "525835890@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/tzq20070604/MyHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyHUD/Classes/**/*"
+}

@@ -304,12 +304,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyTool_Example/Pods-MyTool_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MyHUD/MyHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MyTool/MyTool.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyTool.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

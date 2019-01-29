@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MyHUD (0.1.0)
+  - MyTool (0.1.0):
+    - MyHUD
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MyHUD (from `../../MyHUD`)
+  - MyTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MyHUD:
+    :path: "../../MyHUD"
+  MyTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MyHUD: 67e3f097ebfbf67a2f3e352f6b67837960607922
+  MyTool: c952a167655492078a7bca58e8f9c11045b00d63
+
+PODFILE CHECKSUM: 398bc110d5dc2f98961d373b5075c889531ba34d
+
+COCOAPODS: 1.5.3

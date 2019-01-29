@@ -1,0 +1,6 @@
+framework module MyTool {
+  umbrella header "MyTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
